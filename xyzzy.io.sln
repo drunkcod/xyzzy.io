@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sites", "Sites", "{33CE0901-DB2D-4203-A154-6524E6F30850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xyzzy.Web", "Source\Xyzzy.Web\Xyzzy.Web.csproj", "{24C664F3-9E86-4841-A67B-44F0CEF26F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xyzzy.io", "Sites\xyzzy.io\xyzzy.io.csproj", "{0B0174A4-8651-4A06-809A-FEF6B3E624FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C664F3-9E86-4841-A67B-44F0CEF26F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C664F3-9E86-4841-A67B-44F0CEF26F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C664F3-9E86-4841-A67B-44F0CEF26F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C664F3-9E86-4841-A67B-44F0CEF26F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0174A4-8651-4A06-809A-FEF6B3E624FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0174A4-8651-4A06-809A-FEF6B3E624FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0174A4-8651-4A06-809A-FEF6B3E624FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0174A4-8651-4A06-809A-FEF6B3E624FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B0174A4-8651-4A06-809A-FEF6B3E624FD} = {33CE0901-DB2D-4203-A154-6524E6F30850}
+	EndGlobalSection
+EndGlobal
